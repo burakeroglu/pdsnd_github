@@ -90,6 +90,7 @@ def load_data(city, month, day):
     start_time = time.time()
 
     # filter data according to selected city filters
+
     if isinstance(city, list):
         df = pnd.concat(map(lambda city: pnd.read_csv(CITY_DATA[city]), city),
                        sort=True)
@@ -108,13 +109,14 @@ def load_data(city, month, day):
 
 import datetime as dt
 
-    # to display statistics.
+    # to display statistics
     df['Start Time'] = pnd.to_datetime(df['Start Time'])
     df['Month'] = df['Start Time'].dt.month
     df['Weekday'] = df['Start Time'].dt.weekday_name
     df['Start Hour'] = df['Start Time'].dt.hour
 
-    # filter the data according to month and days into two new DataFrames
+    # filter the data according to month and days
+    # into two new DataFrames.
     if isinstance(month, list):
         df = pnd.concat(map(lambda month: df[df['Month'] ==
                            (months.index(month)+1)], month))
