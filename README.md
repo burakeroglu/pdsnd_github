@@ -3,7 +3,8 @@ Include the date you created this project and README file.
 
 It is important to understand git.
 
-Second changes.
+Another
+changes.
 
 ### Project Title
 Replace the Project Title
