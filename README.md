@@ -1,19 +1,16 @@
-### Date created
-Include the date you created this project and README file.
+Date created
+24 October 2020 
 
-It is important to understand git.
+Project Title
+Programming bikeshare with Python by using some of 3 cities' data.
 
-Another
-changes.
+Description
+It is a Udacity project called Programming Data Science with Python
 
-### Project Title
-Replace the Project Title
+Files used
+new_york_city, chicago, washington
 
-### Description
-Describe what your project is about and what it does
+Credits
+stackoverflow.com and udacity lesson notes really helped me figure things out.
 
-### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks!
